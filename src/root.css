@@ -1,0 +1,64 @@
+:root {
+    --fs-2xl: 40px;
+    --fs-xl: 30px;
+    --fs-lg: 20px;
+    --fs-md: 16px;
+    --fs-sm: 16px;
+    --fs-nn:48px:
+
+
+    --fw-xl: 700;
+    --fw-lg: 600;
+    --fw-md: 500;
+    --fw-sm: 400;
+}
+.fs_nn{
+font-size: var(--fs-nn);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fw_xl {
+    font-weight: var(--fw-xl);
+}
+
+.fw_lg {
+    font-weight: var(--fw-lg);
+}
+
+.fw_md {
+    font-weight: var(--fw-md);
+}
+
+.fw_sm {
+    font-weight: var(--fw-sm);
+}
+
+@media(min-width:1024px) {
+    :root {
+        --fs-2xl: 48px;
+        --fs-xl: 36px;
+        --fs-lg: 24px;
+        --fs-md: 20px;
+        --fs-sm: 18px;
+    }
+
+}

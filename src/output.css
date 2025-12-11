@@ -9,9 +9,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-600: oklch(57.7% 0.245 27.325);
-    --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-600: oklch(44.6% 0.03 256.802);
-    --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -228,14 +226,8 @@
   .left-10 {
     left: calc(var(--spacing) * 10);
   }
-  .left-\[4px\] {
-    left: 4px;
-  }
   .left-\[18px\] {
     left: 18px;
-  }
-  .left-\[40px\] {
-    left: 40px;
   }
   .z-0 {
     z-index: 0;

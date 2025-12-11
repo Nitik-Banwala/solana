@@ -27,8 +27,8 @@ const accordionButtons = document.querySelectorAll(".accordion-button")
                     i.classList.remove("active",  );
                     i.classList.add("mb-4");
 
-                    btnToClose.classList.remove("font-semibold", "text-gray-700", "rounded-b-none", "border-b-0");
-                    btnToClose.classList.add("text-gray-600", );
+                    btnToClose.classList.remove("font-semibold", "rounded-b-none", "border-b-0");
+                    btnToClose.classList.add("font-semibold");
 
                     if (bodyToClose) bodyToClose.classList.add("hidden");
                     if (iconToClose) iconToClose.classList.remove("rotate-180");
@@ -37,8 +37,8 @@ const accordionButtons = document.querySelectorAll(".accordion-button")
                     item.classList.add("active");
                     item.classList.remove("mb-4");
                     item.classList.add( );
-                    button.classList.add("font-semibold", "text-gray-700",  );
-                    button.classList.remove("rounded-lg", "text-gray-600", "border-b");
+                    button.classList.add("font-semibold",   );
+                    button.classList.remove("rounded-lg",  "border-b");
                     body.classList.remove("hidden");
                     icon.classList.add("rotate-180");
                 }

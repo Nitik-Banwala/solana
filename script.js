@@ -52,3 +52,5 @@ const accordionButtons = document.querySelectorAll(".accordion-button")
                 firstButton.classList.add("rounded-t-lg", "border-b-0");
             }
         }
+
+

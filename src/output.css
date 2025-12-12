@@ -28,8 +28,14 @@
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-normal: 400;
@@ -319,6 +325,9 @@
   }
   .mt-\[114px\] {
     margin-top: 114px;
+  }
+  .mb-1 {
+    margin-bottom: calc(var(--spacing) * 1);
   }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
@@ -773,8 +782,14 @@
   .pt-12 {
     padding-top: calc(var(--spacing) * 12);
   }
+  .pt-14 {
+    padding-top: calc(var(--spacing) * 14);
+  }
   .pt-16 {
     padding-top: calc(var(--spacing) * 16);
+  }
+  .pt-18 {
+    padding-top: calc(var(--spacing) * 18);
   }
   .pt-28 {
     padding-top: calc(var(--spacing) * 28);
@@ -782,8 +797,20 @@
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
   }
+  .pb-11 {
+    padding-bottom: calc(var(--spacing) * 11);
+  }
   .pb-14 {
     padding-bottom: calc(var(--spacing) * 14);
+  }
+  .pb-\[-2\] {
+    padding-bottom: -2;
+  }
+  .pb-\[-20\] {
+    padding-bottom: -20;
+  }
+  .pb-\[-\] {
+    padding-bottom: -;
   }
   .pb-\[68px\] {
     padding-bottom: 68px;

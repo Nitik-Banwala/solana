@@ -1,3 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
-*{font-family: "Poppins", sans-serif;}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+@layer base {
+    :root {
+        --fs-2xl: 40px;
+        --fs-xl: 30px;
+        --fs-lg: 20px;
+        --fs-md: 16px;
+        --fs-sm: 16px;
+        --fs-nn: 44px;
+
+        --fw-xl: 700;
+        --fw-lg: 600;
+        --fw-md: 500;
+        --fw-sm: 400;
+    }
+
+    .fs_nn {
+        font-size: var(--fs-nn);
+    }
+
+    .fs_2xl {
+        font-size: var(--fs-2xl);
+    }
+
+    .fs_xl {
+        font-size: var(--fs-xl);
+    }
+
+    .fs_lg {
+        font-size: var(--fs-lg);
+    }
+
+    .fs_md {
+        font-size: var(--fs-md);
+    }
+
+    .fs_sm {
+        font-size: var(--fs-sm);
+    }
+
+    .fw_xl {
+        font-weight: var(--fw-xl);
+    }
+
+    .fw_lg {
+        font-weight: var(--fw-lg);
+    }
+
+    .fw_md {
+        font-weight: var(--fw-md);
+    }
+
+    .fw_sm {
+        font-weight: var(--fw-sm);
+    }
+
+    @media (max-width: 636px) {
+        :root {
+            --fs-nn: 24px;
+        }
+    }
+
+    @media (max-width: 370px) {
+        :root {
+            --fs-nn: 18px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        :root {
+            --fs-2xl: 48px;
+            --fs-xl: 36px;
+            --fs-lg: 24px;
+            --fs-md: 20px;
+            --fs-sm: 18px;
+        }
+    }
+}

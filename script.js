@@ -1,15 +1,14 @@
-const openMenu = document.getElementById("openMenu");
-const closeMenu = document.getElementById("closeMenu");
-const menuOverlay = document.getElementById("menuOverlay");
+const btn = document.getElementById("menu-btn");
+const menu = document.getElementById("mobile-menu");
+const spans = btn.querySelectorAll("span");
 
-openMenu.addEventListener("click", () => {
-    menuOverlay.classList.remove("hidden");
-    setTimeout(() => menuOverlay.classList.remove("opacity-0"), 10);
-});
-
-closeMenu.addEventListener("click", () => {
-    menuOverlay.classList.add("opacity-0");
-    setTimeout(() => menuOverlay.classList.add("hidden"), 300);
+btn.addEventListener("click", () => {
+    menu.classList.toggle("open");
+    spans[0].classList.toggle("rotate-45");
+    spans[0].classList.toggle("translate-y-[7px]");
+    spans[1].classList.toggle("opacity-0");
+    spans[2].classList.toggle("-rotate-45");
+    spans[2].classList.toggle("-translate-y-[7px]");
 });
 const accordionButtons = document.querySelectorAll(".accordion-button")
         accordionButtons.forEach(button => {

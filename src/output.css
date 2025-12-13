@@ -502,11 +502,20 @@
     --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'\/\'\)\] {
+    background-image: url('/');
+  }
   .bg-\[url\(\'\/img\/ss2\.png\'\)\] {
     background-image: url('/img/ss2.png');
   }
   .bg-\[url\(\'\/img\/ss3\.png\'\)\] {
     background-image: url('/img/ss3.png');
+  }
+  .bg-\[url\(\'img\/header-image\.png\'\)\] {
+    background-image: url('img/header-image.png');
   }
   .from-yellow-500 {
     --tw-gradient-from: var(--color-yellow-500);
@@ -698,15 +707,35 @@
       }
     }
   }
+  .max-\[560p\]\:mt-45 {
+    @media (width < 560p) {
+      margin-top: calc(var(--spacing) * 45);
+    }
+  }
   .max-\[450px\]\:text-5xl {
     @media (width < 450px) {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
+  .min-\[560p\]\:mt-45 {
+    @media (width >= 560p) {
+      margin-top: calc(var(--spacing) * 45);
+    }
+  }
   .sm\:mt-24 {
     @media (width >= 40rem) {
       margin-top: calc(var(--spacing) * 24);
+    }
+  }
+  .sm\:mt-28 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 28);
+    }
+  }
+  .sm\:mt-35 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 35);
     }
   }
   .sm\:w-1\/2 {

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home page</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="src/output.css">
     <link rel="stylesheet" href="src/input.css">
     
@@ -18,7 +17,7 @@
 
     <header class="w-full   ">
         <nav class="fixed top-0 z-50 w-full bg-[#F6E300] text-white">
-            <div class="flex justify-between items-center py-6 px-4 lg:px-8 max-w-7xl mx-auto">
+            <div class="flex justify-between items-center py-3 px-3  max-w-7xl mx-auto">
 
                 <h1><svg width="224" height="60" viewBox="0 0 224 60" fill="none" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -42,7 +41,7 @@
                     <li><a href="#c" class="hover:text-[#F4241E]">Roadmap</a></li>
                     <li><a href="#w" class="hover:text-[#F4241E]">Contact</a></li>
                     <button
-                        class="bg-white text-black hover:text-red-500 px-5 py-2 rounded-[10px] text-sm font-semibold shadow-lg hidden lg:block">
+                        class="bg-white text-black hover:text-red-500 px-8 py-4 rounded-[10px] text-sm font-semibold shadow-lg hidden lg:block">
                         Connect Wallet
                     </button>
                 </ul>
@@ -55,7 +54,7 @@
             </div>
 
             <div id="mobile-menu"
-                class="fixed top-0 right-[-100%] w-1/2 h-[60%] rounded-2xl bg-gradient-to-r from-yellow-500   backdrop-blur-[6px] flex flex-col justify-start pt-28 items-start gap-8 pl-10 text-lg font-medium transition-all duration-300 lg:hidden z-50">
+                class="fixed top-0 right-[-100%] w-1/2 h-full rounded-l-2xl  bg-[#FFF03F]   backdrop-blur-[6px] flex flex-col justify-start pt-28 items-start gap-8 pl-10 text-lg font-medium transition-all duration-300 lg:hidden z-50">
 
                 <a href="#h" class="hover:text-[#F4241E]">Home</a>
                 <a href="#u" class="hover:text-[#F4241E]">About Us</a>
@@ -70,7 +69,7 @@
         </nav>
     </header>
     <!-- section-1 -->
-    <section id="h" class="mt-16 sm:mt-28 md:mt-24">
+    <section id="h" class="mt-18 ">
         <div>
             <img src="/img/header-image.png" alt="Header Image" class="w-full h-auto object-cover">
         </div>
@@ -87,10 +86,10 @@
         </div>
     </header>
     <!-- section2 -->
-    <div id="u" class=" bg-[#FFF03F] mt-20">
+    <div id="u" class=" bg-[#FFF03F] px-3 mt-20">
         <div
-            class="container mx-auto flex justify-between xl:gap-32 lg:gap-24 gap-16 px-3 lg:flex-row flex-col-reverse  lg:pt-0 pt-9">
-            <div class="lg:w-1/2 lg:mt-[66px]">
+            class="container mx-auto flex justify-between xl:gap-32 lg:gap-24 gap-16  lg:flex-row flex-col-reverse  lg:pt-0 ">
+            <div class="lg:w-1/2 lg:justify-center lg:items-center place-content-center">
                 <p class="text-black fw_xl fs_2xl lg:text-start text-center fs_nn font-bold md:whitespace-nowrap">It was
                     popularised</p>
                 <p class="fw_sm fs_sm mt-6 mb-10 lg:max-w-[590px] w-full">Have you heard? We're hiring! We have 3,333
@@ -110,8 +109,8 @@
                     MORE
                 </button>
             </div>
-            <div class="lg:w-1/2 flex items-center justify-center">
-                <img src="img/About Us.png" alt="image" class="  w-9/12">
+            <div class=" flex items-center justify-center">
+                <img src="img/About Us.png" alt="image" class="  w-full">
             </div>
         </div>
     </div>
@@ -213,7 +212,7 @@
                     <div class="bg-white p-6 rounded-xl relative z-10 ml-6 md:ml-0 left-9">
                         <div class="flex gap-2 font-bold fw_xl fs_lg">
                             <p>Q1</p>
-                            <p>2022</p> md:pl-20
+                            <p>2022</p>
                         </div>
                         <ul class="mt-2 fw_sm fs_md">
                             <li class="mt-4">1. Charity Giveaway</li>
@@ -270,7 +269,7 @@
     </section>
     <!-- section7 -->
     <section>
-        </div>
+    
         <div>
             <div id="w" class="max-w-[850px] mx-auto  mt-3 p-6  ">
                 <div class="accordion">
@@ -287,7 +286,7 @@
                                     d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
-                        <div class="accordion-body  p-4 pt-2  text-gray-600 text-sm  hidden bg-[#FFF03F] ">
+                        <div class="accordion-body  p-4 pt-2  text-gray-[#000000] opacity-70 text-sm  hidden bg-[#FFF03F] ">
                             <p>Enim scelerisque quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at
                                 sodales <br> aliquam. Amet fermentum,
                                 lectus nulla tincidunt egestas.</p>
@@ -303,7 +302,7 @@
                                     d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
-                        <div class="accordion-body p-4 pt-2 text-gray-600 text-sm  bg-[#FFF03F] hidden">
+                        <div class="accordion-body p-4 pt-2 text-gray-[#000000] opacity-70 text-sm  bg-[#FFF03F] hidden">
                             <p>Enim scelerisque quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at
                                 sodales <br> aliquam. Amet
                                 fermentum,
@@ -320,7 +319,7 @@
                                     d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
-                        <div class="accordion-body p-4 pt-2 text-gray-600 text-sm bg-[#FFF03F] hidden">
+                        <div class="accordion-body p-4 pt-2 text-gray-[#000000] opacity-70 text-sm bg-[#FFF03F] hidden">
                             <p>Enim scelerisque quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at
                                 sodales <br> aliquam. Amet
                                 fermentum,
@@ -337,7 +336,7 @@
                                     d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
-                        <div class="accordion-body p-4 pt-2 text-gray-600 text-sm bg-[#FFF03F] hidden">
+                        <div class="accordion-body p-4 pt-2 text-gray-[#000000] opacity-70 text-sm bg-[#FFF03F] hidden">
                             <p>Enim scelerisque quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at
                                 sodales <br> aliquam. Amet
                                 fermentum,lectus nulla tincidunt egestas.</p>
@@ -353,7 +352,7 @@
                                     d="M19 9l-7 7-7-7"></path>
                             </svg>
                         </button>
-                        <div class="accordion-body p-4 pt-2 text-gray-600 text-sm bg-[#FFF03F] hidden">
+                        <div class="accordion-body p-4 pt-2 text-gray-[#000000] opacity-70 text-sm bg-[#FFF03F] hidden">
                             <p>Enim scelerisque quisque egestas velit, eget tempus, arcu pulvinar in. Quis sed at
                                 sodales <br>
                                 aliquam. Amet fermentum,lectus nulla tincidunt egestas.</p>
@@ -389,7 +388,7 @@
                         fill="#FF0000" />
                 </svg>
             </div>
-            <p class="fw_sm fs_sm text-center">@Copyright 2025</p>
+            <p class="fw_sm fs_sm mb-10 text-center">@Copyright 2025</p>
         </div>
     </footer>
     <style>

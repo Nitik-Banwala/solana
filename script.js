@@ -23,7 +23,7 @@ const accordionButtons = document.querySelectorAll(".accordion-button")
                     const btnToClose = i.querySelector(".accordion-button");
                     const iconToClose = i.querySelector(".arrow-icon");
 
-                    i.classList.remove("active",  );
+                    i.classList.remove("active");
                     i.classList.add("mb-4");
 
                     btnToClose.classList.remove("font-semibold", "rounded-b-none", "border-b-0");
@@ -35,9 +35,8 @@ const accordionButtons = document.querySelectorAll(".accordion-button")
                 if (!isCurrentlyActive) {
                     item.classList.add("active");
                     item.classList.remove("mb-4");
-                    item.classList.add( );
-                    button.classList.add("font-semibold",   );
-                    button.classList.remove("rounded-lg",  "border-b");
+                    button.classList.add("font-semibold");
+                    button.classList.remove("rounded-lg", "border-b");
                     body.classList.remove("hidden");
                     icon.classList.add("rotate-180");
                 }
